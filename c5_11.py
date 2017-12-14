@@ -1,4 +1,5 @@
 from collections import namedtuple
+from operator import itemgetter
 
 metro_data = [
     ('Tokyo', 'JP', 36.933, (35.689722, 139.691667)),
@@ -18,7 +19,6 @@ metro_areas = [Metropolis(name, cc, pop, LatLong(lat, long))
 print(metro_areas)
 print(metro_areas[0].coord.lat)
 
-
-
-t = Metropolis('1', '2', '3', LatLong(1, 2))
-print(t)
+cc_name = itemgetter(1, 0, 3)
+for city in metro_data:
+    print(cc_name(city))

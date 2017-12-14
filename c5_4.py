@@ -16,7 +16,7 @@ class BingoCage:
         return self.pick()
 
 
-bingo = BingoCage(range(3))
+bingo = BingoCage(range(100))
 print(bingo.pick())
 print(bingo())
 print(callable(bingo))

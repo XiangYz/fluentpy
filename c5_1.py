@@ -8,3 +8,5 @@ print(type(factorial))
 
 fact = factorial
 print(list(map(fact, range(11))))
+print(set(map(fact, range(11))))
+print(tuple(map(fact, range(11))))

@@ -1,3 +1,4 @@
+#函数的注释，类型注释和字符串注释
 def clip(text:str, max_len:'int > 0'=80) -> str:
     """在max_len前面或后面的第一个空格处截断文本"""
     end = None

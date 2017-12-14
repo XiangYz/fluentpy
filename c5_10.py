@@ -9,6 +9,7 @@ metro_data = [
     ('Sao Paulo', 'BR', 19.649, (-23.547778, -46.635833)),
 ]
 
+#key参数用itemgetter或者lambda表达式
 #for city in sorted(metro_data, key = itemgetter(1)):
 for city in sorted(metro_data, key = lambda a: a[1]):
     print(city)
