@@ -50,11 +50,11 @@ def fabonacci(n):
     return 1 if n <= 2 else fabonacci(n - 1) + fabonacci(n - 2)
 
 if __name__ == '__main__':
-    print('*' * 40, 'Calling snnoze(.123)')
-    snooze(.123)
-    print(snooze.__doc__)
-    print('*' * 40, 'Calling fact(6)')
-    print('6! = ', fact(6))
-    print(fact.__doc__)
+    # print('*' * 40, 'Calling snnoze(.123)')
+    # snooze(.123)
+    # print(snooze.__doc__)
+    # print('*' * 40, 'Calling fact(6)')
+    # print('6! = ', fact(6))
+    # print(fact.__doc__)
 
-    print(fabonacci(200))
+    print(fabonacci(20))
