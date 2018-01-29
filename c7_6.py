@@ -14,7 +14,7 @@ def register(active = True):
         return func
     return decorate
 
-
+#装饰器后面跟括号表示需要调用一次这个函数才能得到真正的装饰器
 @register(active = False)
 def f1():
     print('running f1()')

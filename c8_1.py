@@ -6,11 +6,13 @@ charles = alex
 lewis = {'name': 'Charles L. Dodgson', 'born': 1832, 'balance': 950}
 
 print(id(alex))
+print(id(charles))
 print(id(lewis))
 
-
+# is用来判断是否引用的同一个对象
 print(alex is charles)
 print(alex is lewis)
+# == 用来判断值是否相等
 print(alex == lewis)
 
 l1 = [1, [2, 3], [4, 5, 6]]
